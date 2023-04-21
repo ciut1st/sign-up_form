@@ -8,7 +8,32 @@ img {
     height: auto;
 }
 
-.form-container {
+em {
+    font-style: italic;
+}
+.content {
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
+.content-top, .content-mid, .content-bottom {
+    padding-left: 32px;
+}
+
+.content-top > p {
+    font-weight: bold;
+
+}
+
+.content-mid {
+
+}
+
+.content-bottom {
+
+}
+
+h1 {
+    font-size: 16px;
 }
